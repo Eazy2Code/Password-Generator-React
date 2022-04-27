@@ -1,0 +1,60 @@
+body{
+  background-color: rgb(228, 227, 226);
+}
+
+.App{
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.generator{
+  border: 2px solid rgb(121, 120, 120);
+  border-radius: 10px;
+  padding: 30px;
+}
+.generator__header{
+  text-align: center;
+  /* color: rgb(121, 120, 120); */
+  color: rgb(0, 140, 255);
+  margin-bottom: 20px;
+}
+.generator__password{
+  background-color:rgb(121, 120, 120);
+  padding: 13px 10px;
+  color: #fff;
+  margin-bottom: 15px;
+  height: 46px;
+  display: flex;
+  justify-content: space-between;
+}
+.copy__btn{
+  color: #fff;
+  background: rgb(121, 120, 120);
+  border: none;
+  cursor: pointer;
+  transition: all .5s ease-in-out;
+}
+.copy__btn:hover{
+  opacity: 0.5;
+  font-size: 15px;
+}
+.generator__btn{
+  background: rgb(0, 140, 255);
+  border: none;
+  width: 100%;
+  margin-top: 10px;
+  padding: 10px;
+  color: #fff;
+  border-radius: 30px;
+  font-size: 17px;
+  cursor: pointer;
+
+}
+.form-group{
+  display: flex;
+  justify-content: space-between;
+  color: gre;
+  margin-bottom: 15px;
+}
